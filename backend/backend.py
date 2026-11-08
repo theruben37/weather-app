@@ -16,7 +16,6 @@ def weather_route():
     if not city:
         return jsonify({"error": "city is required"}), 400
 
-   
     try:
         r1 = requests.get(
             GEOCODING_URL,
@@ -33,7 +32,6 @@ def weather_route():
 
     place = results[0]
 
-   
     try:
         r2 = requests.get(
             FORECAST_URL,
@@ -50,12 +48,12 @@ def weather_route():
 
     weather = r2.json()["current_weather"]
 
-   
     return jsonify({
         "city": place["name"],
         "country": place.get("country"),
         "temp": weather["temperature"],
         "windspeed": weather["windspeed"],
+        "weathercode": weather["weathercode"],   # new
     })
 
 
