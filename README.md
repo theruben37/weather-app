@@ -4,6 +4,8 @@ Weatherly is a city weather app that displays current temperature, wind speed, a
 
 ![Weatherly showing current conditions for London](docs/weather-app.png)
 
+![Weatherly's initial city search screen](docs/weather-app-empty-state.png)
+
 ## Requirements
 
 - Python 3
