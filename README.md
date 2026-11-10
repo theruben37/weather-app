@@ -33,7 +33,7 @@ npm install
 npm run dev
 ```
 
-Open the local URL printed by Vite. The frontend expects the API at `http://localhost:5000/api/weather`.
+Open the local URL printed by Vite. The frontend expects the API at `http://localhost:5000/api/weather`. The frontend runs at `http://localhost:5173/`.
 
 ## Frontend commands
 
