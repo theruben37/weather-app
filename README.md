@@ -1,6 +1,6 @@
 # Weatherly
 
-Weatherly is a city weather app that displays current temperature, wind speed, and weather conditions in a responsive interface. Search for a city or choose a popular destination. Weather and geocoding data are provided by [Open-Meteo](https://open-meteo.com/).
+Weatherly is a city weather app that displays current temperature, wind speed, and weather conditions in a responsive interface. Search for a city or choose a popular destination. Weather and geocoding data are provided by [Open-Meteo](https://open-meteo.com/). I created this app to apply my knowledge of API's and http requests and also learn AI assisted programming bu using GitHub Copilot for creating the frontend.
 
 ![Weatherly's initial screen with the city search field, popular city shortcuts, and empty-state illustration](docs/weather-app-empty-state.png)
 
